@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+}
+header{
+    height: 110px;
+    border-bottom: 0.5px solid gray;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+header > * {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 20%;
+    border-right: 0.5px solid #bebebe;
+}
+nav{
+    width: 25%;
+}
+.text1{
+    margin-left: 35px;
+    font-size: 16px;
+}
+.text2{
+    margin-left: 47px;
+    
+}
+.text3{
+    margin-left: 47px;
+}
+.actions{
+    width: 50%;
+}
+.input_div{
+    margin-left: 80px;
+    border: 2px solid #efefef;
+    border-radius: 100px;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+input{
+    border: none;
+    margin-left: 20px;
+}
+input::placeholder{
+    font-weight: 700;
+    color: #b1b1b1;
+}
+.b1{
+    margin-left: 20px;
+    width: 131px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 60px;
+    background-color: #3d00b7;
+    color: white;
+}
+.b2{
+    margin-left: 20px;
+    width: 131px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #3d00b7;
+    border-radius: 60px;
+    color: #3d00b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.text4{
+    margin-left: 150px;
+    width: 612px;
+    height: 96px;
+}
+h1{
+    font-size: 40px;
+}
