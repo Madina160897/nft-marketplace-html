@@ -80,5 +80,6 @@ input::placeholder{
     height: 96px;
 }
 h1{
+    margin-top: 72px;
     font-size: 40px;
 }
